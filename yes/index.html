@@ -39,7 +39,7 @@
 	
 	
 </head>
-<body>	
+<body class="royal_loader">	
 	<!-- Primary Page Layout
 	================================================== -->
 
@@ -846,6 +846,19 @@
 	================================================== -->
 	<script type="text/javascript" src="../js/jquery.js"></script>	
 	<script type="text/javascript" src="../js/modernizr.custom.js"></script> 
+	<script type="text/javascript" src="../js/royal_preloader.min.js"></script>
+	<script type="text/javascript">
+	(function($) { "use strict";
+		Royal_Preloader.config({
+                mode:           'text', // 'number', "text" or "logo"
+                text:           'Piattelli',
+                timeout:        0,
+                showInfo:       true,
+                opacity:        1,
+                background:     ['#FFFFFF']
+            });
+	})(jQuery);
+	</script>
 	<script type="text/javascript" src="../js/classie.js"></script>
 	<script type="text/javascript" src="../js/cbpAnimatedHeader.min.js"></script>
 	<script type="text/javascript" src="../js/retina-1.1.0.min.js"></script> 

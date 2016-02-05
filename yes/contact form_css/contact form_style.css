@@ -19,10 +19,10 @@ Author: http://www.toddmotto.com
 body {
 	font:400 12px/1.625 "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color:#444;
-	background:#991D57;
-	background-image:linear-gradient(left , #761542 0%, #991D57 52%, #761542 100%);
-	background-image:-moz-linear-gradient(left , #761542 0%, #991D57 52%, #761542 100%);
-	background-image:-webkit-linear-gradient(left , #761542 0%, #991D57 52%, #761542 100%);
+	background:#333333;
+	background-image:linear-gradient(left , #333333 0%, #333333 52%, #333333 100%);
+	background-image:-moz-linear-gradient(left , #333333 0%, #333333 52%, #333333 100%);
+	background-image:-webkit-linear-gradient(left , #333333 0%, #333333 52%, #333333 100%);
 }
 .wrapper {
 	max-width:500px;
@@ -33,7 +33,6 @@ body {
 #contact-form input[type="text"],
 #contact-form input[type="email"],
 #contact-form input[type="tel"],
-#contact-form input[type="url"],
 #contact-form textarea,
 #contact-form button[type="submit"] {
 	font:400 12px/12px "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -47,7 +46,7 @@ body {
 	padding:25px;
 }
 #contact-form h3 {
-	color:#991D57;
+	color:#333333;
 	display:block;
 	font-size:28px;
 }
@@ -58,7 +57,7 @@ body {
 }
 #contact-form label span {
 	cursor:pointer;
-	color:#991D57;
+	color:#333333;
 	display:block;
 	margin:5px 0;
 	font-weight:900;
@@ -66,7 +65,6 @@ body {
 #contact-form input[type="text"],
 #contact-form input[type="email"],
 #contact-form input[type="tel"],
-#contact-form input[type="url"],
 #contact-form textarea {
 	width:100%;
 	box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
@@ -81,7 +79,6 @@ body {
 #contact-form input[type="text"]:hover,
 #contact-form input[type="email"]:hover,
 #contact-form input[type="tel"]:hover,
-#contact-form input[type="url"]:hover,
 #contact-form textarea:hover {
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
@@ -96,19 +93,19 @@ body {
 	cursor:pointer;
 	width:100%;
 	border:none;
-	background:#991D57;
-	background-image:linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
-	background-image:-moz-linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
-	background-image:-webkit-linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
+	background:#333333;
+	background-image:linear-gradient(bottom, #333333 0%, #333333 52%);
+	background-image:-moz-linear-gradient(bottom, #333333 0%, #333333 52%);
+	background-image:-webkit-linear-gradient(bottom, #333333 0%, #333333 52%);
 	color:#FFF;
 	margin:0 0 5px;
 	padding:10px;
 	border-radius:5px;
 }
 #contact-form button[type="submit"]:hover {
-	background-image:linear-gradient(bottom, #9C215A 0%, #A82767 52%);
-	background-image:-moz-linear-gradient(bottom, #9C215A 0%, #A82767 52%);
-	background-image:-webkit-linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+	background-image:linear-gradient(bottom, #333333 0%, #333333 52%);
+	background-image:-moz-linear-gradient(bottom, #333333 0%, #333333 52%);
+	background-image:-webkit-linear-gradient(bottom, #333333 0%, #333333 52%);
 	-webkit-transition:background 0.3s ease-in-out;
 	-moz-transition:background 0.3s ease-in-out;
 	transition:background-color 0.3s ease-in-out;

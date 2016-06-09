@@ -2574,6 +2574,7 @@ html[xmlns] .slides {display: block;}
 	z-index:2;
 	background:#fff;
 	padding-bottom:40px;
+	height: 800px;
 } 
  
 
@@ -2583,6 +2584,7 @@ html[xmlns] .slides {display: block;}
 	width: 100%;
 	overflow:hidden;
 	z-index:2;
+	height: 600;
 }
 
 #sync7 .item {

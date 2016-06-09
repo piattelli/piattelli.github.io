@@ -2762,12 +2762,12 @@ html[xmlns] .slides {display: block;}
 
 
 
-#map{
+#grappos-widget{
 	position: relative;
   display: block;
   width: 100%;
   margin-top:15px;
-  height: 410px;
+  height: 600px;
 }
 .overlay{
   display:block;

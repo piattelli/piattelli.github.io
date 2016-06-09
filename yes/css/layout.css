@@ -2593,6 +2593,7 @@ html[xmlns] .slides {display: block;}
     width: 100%;
     display: block;
 	padding-bottom:120px;
+	height: 600px;
 }
 #sync7 .item h3{
 	text-align:center;

@@ -2575,6 +2575,9 @@ html[xmlns] .slides {display: block;}
 	background:#fff;
 	padding-bottom:40px;
 	height: 800px;
+
+#grappos-widget{
+	height: 600px;
 } 
  
 
@@ -2585,6 +2588,7 @@ html[xmlns] .slides {display: block;}
 	overflow:hidden;
 	z-index:2;
 	height: 600px;
+
 }
 
 #sync7 .item {

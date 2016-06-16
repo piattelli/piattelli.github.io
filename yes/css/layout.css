@@ -2767,13 +2767,13 @@ html[xmlns] .slides {display: block;}
   display: block;
   width: 100%;
   margin-top:15px;
-  height: 600px;
+  height: 1200px;
 }
 .overlay{
   display:block;
   z-index:10;
   text-align:center;
-  height:80px;
+  height:600px;
   width:102px;
   background:transparent url(../images/marker.png)no-repeat bottom center;
 }
